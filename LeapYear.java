@@ -6,17 +6,15 @@ public class LeapYear {
 
 	public static void main(String[] args) {
 		int year ;
-		boolean isLeap = false ;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter the year : ");
+		System.out.print("Enter the year: ");
 		year = scan.nextInt();
 		
-		isLeap = isLeapYear(year);
-		if(isLeap == true){
-		System.out.println("The yaer "+year+" is Leap Year.");
+		if(isLeapYear(year)){
+			System.out.println("The yaer "+year+" is Leap Year.");
 		}
 		else{
-		System.out.println("The year "+year+" is not Leap Year.");
+			System.out.println("The year "+year+" is not Leap Year.");
 		}
 	}
 	
