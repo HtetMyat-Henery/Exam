@@ -8,7 +8,7 @@ public class CalculateProfit {
         double profit=0.0;
 
         Scanner input=new Scanner(System.in);
-        System.out.print("Enter type: ");
+        System.out.print("Enter type: (0 for Clothes and 1 for Shoes)");
         type = input.nextInt();
         System.out.print("Enter price: ");
         price = input.nextInt();
