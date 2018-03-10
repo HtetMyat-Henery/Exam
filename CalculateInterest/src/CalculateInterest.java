@@ -2,29 +2,29 @@ import java.util.Scanner;
 
 public class CalculateInterest {
     public static void main(String[]args){
-        String AccountType;
+        String accountType;
         double amt = 0.0;
         int year = 0;
         double interest = 0.0;
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter Account Type: ([Normal] or [Deluxe])");
-        AccountType = input.nextLine();
+        System.out.print("Account Type: ([Normal] or [Deluxe])");
+        accountType = input.nextLine();
 
-        System.out.print("Enter amount: ");
+        System.out.print("Amount: ");
         amt = input.nextDouble();
 
-        System.out.print("Enter year: ");
+        System.out.print("Loan period(in years): ");
         year = input.nextInt();
 
-        if (AccountType.equalsIgnoreCase("Normal")){
+        if (accountType.equalsIgnoreCase("Normal")){
             if (year<5){
                 interest = (amt*15)/100;
             }else {
                 interest = (amt*17)/100;
             }
         }
-        else if (AccountType.equalsIgnoreCase("Deluxe")){
+        else if (accountType.equalsIgnoreCase("Deluxe")){
             if (year<10){
                 interest = (amt*14)/100;
             }else if (year>=10 && year<=15){
