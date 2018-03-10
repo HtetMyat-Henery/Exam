@@ -8,7 +8,7 @@ public class CalculateInterest {
         double interest = 0.0;
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter Account Type: ");
+        System.out.print("Enter Account Type: ([Normal] or [Deluxe])");
         AccountType = input.nextLine();
 
         System.out.print("Enter amount: ");
