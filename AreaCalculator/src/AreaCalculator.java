@@ -1,11 +1,3 @@
-/**
- * @(#)AreaCalculator.java
- *
- * AreaCalculator application
- *
- * @author 
- * @version 1.00 2018/3/10
- */
 public class AreaCalculator {
     
     public static void main(String[] args) {
