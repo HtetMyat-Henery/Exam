@@ -6,9 +6,9 @@ public class CalculateProfit {
         int type=0;
         double price=0.0;
         double profit=0.0;
-
         Scanner input=new Scanner(System.in);
-        System.out.print("Enter type: (0 for Clothes and 1 for Shoes)");
+        
+        System.out.print("Enter type: (0 for clothes and 1 for shoes)");
         type = input.nextInt();
         System.out.print("Enter price: ");
         price = input.nextInt();
@@ -29,6 +29,7 @@ public class CalculateProfit {
                 profit = (price*10/100);
             }
         }
-        System.out.println("profit: "+profit);
+        
+        System.out.println("Profit: "+profit);
     }
 }
