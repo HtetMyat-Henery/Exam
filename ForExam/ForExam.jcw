@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>ForExam</label>
+	</settings>
+	<users>
+		<user>
+			<path>ForExam.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>ForExam.jcp</path>
+		</project>
+	</projects>
+</workspace>
